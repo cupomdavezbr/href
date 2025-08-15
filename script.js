@@ -1,5 +1,5 @@
 // Número do WhatsApp centralizado
-const whatsappNumber = "551151044247"; // Atualizado para o número correto
+const whatsappNumber = "551151073262"; // Atualizado para o número correto
 const whatsappLink = `https://wa.me/${whatsappNumber}?text=Ol%C3%A1,%20gostaria%20de%20iniciar%20o%20atendimento.`;
 
 // Toggle mobile menu
@@ -115,4 +115,5 @@ document.addEventListener("DOMContentLoaded", () => {
   if (footerWhatsappLink) {
     footerWhatsappLink.setAttribute("href", whatsappLink);
   }
+
 });
